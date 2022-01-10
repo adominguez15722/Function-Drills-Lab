@@ -187,21 +187,21 @@ function exclaimFour(str) {
 
 //CODE HERE
 
-function nameCheck(name){
-  name = name.toLowerCase()
+// function nameCheck(name){
+//   name = name.toLowerCase()
   
-    if (name === 'steven'){
-      return 'What is up Steven?'
-    } else if(name === 'bryan'){
-      return 'Hey Bryan!'
-    } else{
-      return `Cool name, ${name}`
-    }
-  };
+//     if (name === 'steven'){
+//       return 'What is up Steven?'
+//     } else if(name === 'bryan'){
+//       return 'Hey Bryan!'
+//     } else{
+//       return `Cool name, ${name}`
+//     }
+//   };
   
-  const nameGreeting = nameCheck('Steven');
+//   const nameGreeting = nameCheck('Steven');
   
-  console.log(nameGreeting);
+//   console.log(nameGreeting);
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -216,6 +216,24 @@ function nameCheck(name){
 
 //CODE HERE
 
+function faveColorFinder(color){
+  color = color.toLowerCase()
+
+  if (color === 'red'){
+    return `red is a great color`
+  } else if(color === 'green'){
+    return  `green is a solid favorite color`
+  } else if(color === 'black'){
+    return `so trendy`
+  } else{
+    return `you need to evaluate your favorite color choice`
+  }
+  // return color
+};
+
+const colorRating = faveColorFinder('red');
+
+console.log(colorRating);
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
