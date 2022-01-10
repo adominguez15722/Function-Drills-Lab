@@ -81,17 +81,17 @@
 
 //CODE HERE
 
-const compareNums = (num1, num2) => {
-  if (num1 > num2){
-    console.log(`${num1}`)
-  } else if(num1 < num2){
-    console.log(`${num2}`)
-  } else{
-    console.log(`${num1}`)
-  }
-};
+// const compareNums = (num1, num2) => {
+//   if (num1 > num2){
+//     console.log(`${num1}`)
+//   } else if(num1 < num2){
+//     console.log(`${num2}`)
+//   } else{
+//     console.log(`${num1}`)
+//   }
+// };
 
-compareNums(1, 1);
+// compareNums(1, 1);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -102,6 +102,17 @@ compareNums(1, 1);
 */
 
 //CODE HERE
+
+function add(num1, num2){
+
+return parseInt(num1) + parseInt(num2)
+ 
+
+};
+let sum = add('34',3);
+
+console.log(sum);
+
 
 
 ////////////////// PROBLEM 7 ////////////////////
