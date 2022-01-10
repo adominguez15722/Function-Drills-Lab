@@ -26,9 +26,9 @@
 
 //CODE HERE
 
-const jsNinja = () =>{console.log('I am a JavaScript ninja!')};
+// const jsNinja = () =>{console.log('I am a JavaScript ninja!')};
 
-jsNinja();
+// jsNinja();
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -39,6 +39,13 @@ jsNinja();
 */
 
 //CODE HERE
+
+function printName(name){
+  
+  console.log(`${name}`)
+};
+
+printName('horse');
 
 
 ////////////////// PROBLEM 4 ////////////////////
