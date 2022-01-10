@@ -143,7 +143,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-arrow
+//arrow
 // declaration
 // expression
 
@@ -168,7 +168,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+declaration
 // expression
 
 
