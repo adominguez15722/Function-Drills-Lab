@@ -40,12 +40,12 @@
 
 //CODE HERE
 
-function printName(name){
+// function printName(name){
   
-  console.log(`${name}`)
-};
+//   console.log(`${name}`)
+// };
 
-printName('horse');
+// printName('horse');
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -61,11 +61,11 @@ printName('horse');
 
 //CODE HERE
 
-function greeting(name){
-  console.log(`Hello, ${name}`)
-}
+// function greeting(name){
+//   console.log(`Hello, ${name}`)
+// }
 
-greeting('Anthony');
+// greeting('Anthony');
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -81,6 +81,17 @@ greeting('Anthony');
 
 //CODE HERE
 
+const compareNums = (num1, num2) => {
+  if (num1 > num2){
+    console.log(`${num1}`)
+  } else if(num1 < num2){
+    console.log(`${num2}`)
+  } else{
+    console.log(`${num1}`)
+  }
+};
+
+compareNums(1, 1);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
