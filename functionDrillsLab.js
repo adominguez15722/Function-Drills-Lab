@@ -13,11 +13,11 @@
 
 //CODE HERE
 
-function helloWorld(){
-  console.log('Hello, World!')
-}
+// function helloWorld(){
+//   console.log('Hello, World!')
+// };
 
-helloWorld();
+// helloWorld();
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -25,6 +25,10 @@ helloWorld();
 */
 
 //CODE HERE
+
+const jsNinja = () =>{console.log('I am a JavaScript ninja!')};
+
+jsNinja();
 
 
 ////////////////// PROBLEM 3 ////////////////////
