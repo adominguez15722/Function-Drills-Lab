@@ -61,6 +61,12 @@ printName('horse');
 
 //CODE HERE
 
+function greeting(name){
+  console.log(`Hello, ${name}`)
+}
+
+greeting('Anthony');
+
 
 ////////////////// PROBLEM 5 ////////////////////
 
