@@ -142,9 +142,9 @@ const exclaim = function(str) {
 // const exclaimTwo = str => {
 //   return str.toUpperCase() + '!!!'
 // }
-const exclaimThree = str => (`${str.toUpperCase()}!!!`)
+// const exclaimThree = str => (`${str.toUpperCase()}!!!`)
 
-console.log(exclaimThree('this is my string'))
+// console.log(exclaimThree('this is my string'))
 
 //arrow
 // declaration
@@ -186,6 +186,22 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+function nameCheck(name){
+  name = name.toLowerCase()
+  
+    if (name === 'steven'){
+      return 'What is up Steven?'
+    } else if(name === 'bryan'){
+      return 'Hey Bryan!'
+    } else{
+      return `Cool name, ${name}`
+    }
+  };
+  
+  const nameGreeting = nameCheck('Steven');
+  
+  console.log(nameGreeting);
 
 
 ////////////////// PROBLEM 11 ////////////////////
