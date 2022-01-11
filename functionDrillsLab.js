@@ -264,16 +264,16 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
-function thatsOdd(num1){
-  if(num1 % 2 === 0){
-    return "That's not odd!"
-  } else{
-    return "That's odd indeed!"
-  }
-};
+// function thatsOdd(num1){
+//   if(num1 % 2 === 0){
+//     return "That's not odd!"
+//   } else{
+//     return "That's odd indeed!"
+//   }
+// };
 
-const oddChecker = thatsOdd(6);
-console.log(oddChecker);
+// const oddChecker = thatsOdd(6);
+// console.log(oddChecker);
 
 
 
@@ -288,6 +288,10 @@ console.log(oddChecker);
 */
 
 //CODE HERE
+
+const bestMovie = (title) => {return `${title} is the best movie ever!`};
+
+console.log(bestMovie("Sharknado"));
 
 
 ////////////////// PROBLEM 15 ////////////////////
