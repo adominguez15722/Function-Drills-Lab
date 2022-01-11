@@ -333,17 +333,17 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-function theEliminator(name1, name2){
-  for(let i = 0; i < name1.length; i++){
-if (name1[i] === name2){
-name1.splice(i,1)
-return name1
-}
-}
-};
+// function theEliminator(name1, name2){
+//   for(let i = 0; i < name1.length; i++){
+// if (name1[i] === name2){
+// name1.splice(i,1)
+// return name1
+// }
+// }
+// };
 
-let solution16 = theEliminator(contestants, 'Glimmer');
-console.log(solution16);
+// let solution16 = theEliminator(contestants, 'Glimmer');
+// console.log(solution16);
 
 
 ////////////////// PROBLEM 17 ////////////////////
@@ -354,6 +354,13 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+
+function raise(string){
+  string = string.toUpperCase()
+  console.log(string)
+};
+
+raise(sampleString);
 
 
 ////////////////// PROBLEM 18 ////////////////////
