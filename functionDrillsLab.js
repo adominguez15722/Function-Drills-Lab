@@ -103,15 +103,15 @@
 
 //CODE HERE
 
-function add(num1, num2){
+// function add(num1, num2){
 
-return parseInt(num1) + parseInt(num2)
+// return parseInt(num1) + parseInt(num2)
  
 
-};
-let sum = add('34',3);
+// };
+// let sum = add('34',3);
 
-console.log(sum);
+// console.log(sum);
 
 
 
@@ -245,13 +245,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
-function printAllNames(arr){
-  for(let i = 0; i < namesArr.length; i++){
-    console.log(namesArr[i])
-  }
-};
+// function printAllNames(arr){
+//   for(let i = 0; i < namesArr.length; i++){
+//     console.log(namesArr[i])
+//   }
+// };
 
-const solution = printAllNames(namesArr);
+// const solution = printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
@@ -263,6 +263,18 @@ const solution = printAllNames(namesArr);
 */
 
 //CODE HERE
+
+function thatsOdd(num1){
+  if(num1 % 2 === 0){
+    return "That's not odd!"
+  } else{
+    return "That's odd indeed!"
+  }
+};
+
+const oddChecker = thatsOdd(6);
+console.log(oddChecker);
+
 
 
 ////////////////// PROBLEM 14 ////////////////////
