@@ -216,24 +216,24 @@ function exclaimFour(str) {
 
 //CODE HERE
 
-function faveColorFinder(color){
-  color = color.toLowerCase()
+// function faveColorFinder(color){
+//   color = color.toLowerCase()
 
-  if (color === 'red'){
-    return `red is a great color`
-  } else if(color === 'green'){
-    return  `green is a solid favorite color`
-  } else if(color === 'black'){
-    return `so trendy`
-  } else{
-    return `you need to evaluate your favorite color choice`
-  }
-  // return color
-};
+//   if (color === 'red'){
+//     return `red is a great color`
+//   } else if(color === 'green'){
+//     return  `green is a solid favorite color`
+//   } else if(color === 'black'){
+//     return `so trendy`
+//   } else{
+//     return `you need to evaluate your favorite color choice`
+//   }
+//   // return color
+// };
 
-const colorRating = faveColorFinder('red');
+// const colorRating = faveColorFinder('red');
 
-console.log(colorRating);
+// console.log(colorRating);
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -244,6 +244,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+
+function printAllNames(arr){
+  for(let i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i])
+  }
+};
+
+const solution = printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
