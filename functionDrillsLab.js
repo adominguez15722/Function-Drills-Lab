@@ -246,8 +246,8 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 //CODE HERE
 
 // function printAllNames(arr){
-//   for(let i = 0; i < namesArr.length; i++){
-//     console.log(namesArr[i])
+//   for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
 //   }
 // };
 
@@ -309,20 +309,20 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 
 
 
-function bigOrSmall(arr){
-  let answers = []
-  for(let i = 0; i < arr.length; i++){
-    if(arr[i] > 100){
-      answers.push('big')
-    } else{
-      answers.push('small')
-    };
-  };
-  return answers
+// function bigOrSmall(arr){
+//   let answers = []
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] > 100){
+//       answers.push('big')
+//     } else{
+//       answers.push('small')
+//     };
+//   };
+//   return answers
   
-};
-let arrayEvaluator = bigOrSmall(bigOrSmallArray);
-console.log(arrayEvaluator);
+// };
+// let arrayEvaluator = bigOrSmall(bigOrSmallArray);
+// console.log(arrayEvaluator);
 
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
@@ -333,9 +333,18 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-// function theEliminator(name1, name2){
-//   for(let i = 0; i < contestants.length; i++)
-// }
+function theEliminator(name1, name2){
+  for(let i = 0; i < name1.length; i++){
+if (name1[i] === name2){
+name1.splice(i,1)
+return name1
+}
+}
+};
+
+let solution16 = theEliminator(contestants, 'Glimmer');
+console.log(solution16);
+
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
