@@ -355,12 +355,12 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-function raise(string){
-  string = string.toUpperCase()
-  console.log(string)
-};
+// function raise(string){
+//   string = string.toUpperCase()
+//   console.log(string)
+// };
 
-raise(sampleString);
+// raise(sampleString);
 
 
 ////////////////// PROBLEM 18 ////////////////////
@@ -373,6 +373,22 @@ raise(sampleString);
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+
+function emailCheck(email){
+  email = email.toString().trim();
+
+  let symbol = '@';
+  console.log(email);
+  if(email.match(symbol)){
+    return 'email verified'
+  } else{
+    return 'must provide a valid email address'
+  };
+
+
+}
+
+console.log(emailCheck('  adominguez15722@gmail.com'));
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
