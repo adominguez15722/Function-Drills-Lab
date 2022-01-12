@@ -440,24 +440,24 @@ let samArr = [0,1,2,3,4,5,6,7]
 
 //CODE HERE
 
-function testOrder(arr) {
+// function testOrder(arr) {
   
-  for(let i = 0; i < arr.length; i++){
-    if(arr[i] < arr[i + 1]){
-      continue;
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] < arr[i + 1]){
+//       continue;
       
-    } else if(arr[i] > arr[i + 1]){
-      return 'false';
+//     } else if(arr[i] > arr[i + 1]){
+//       return 'false';
     
-    } else{
-      return 'true';
-    };
-  };
-};
+//     } else{
+//       return 'true';
+//     };
+//   };
+// };
 
-let arrayIsAscending = testOrder(samArr);
+// let arrayIsAscending = testOrder(samArr);
 
-console.log(arrayIsAscending);
+// console.log(arrayIsAscending);
 
 ////////////////// PROBLEM 22 ////////////////////
 
@@ -481,13 +481,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ['duck']
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ['rubber duck', 'duck']
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ['sailor duck', 'duck', 'rubber duck']
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ['real duck', 'duck']
