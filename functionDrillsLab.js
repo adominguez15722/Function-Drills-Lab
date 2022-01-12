@@ -374,21 +374,21 @@ let sampleString = "Hi, my name is Kylo."
   return 'must provide a valid email address'
 */
 
-function emailCheck(email){
-  email = email.toString().trim();
+// function emailCheck(email){
+//   email = email.toString().trim();
 
-  let symbol = '@';
-  console.log(email);
-  if(email.match(symbol)){
-    return 'email verified'
-  } else{
-    return 'must provide a valid email address'
-  };
+//   let symbol = '@';
+//   console.log(email);
+//   if(email.match(symbol)){
+//     return 'email verified'
+//   } else{
+//     return 'must provide a valid email address'
+//   };
 
 
-}
+// }
 
-console.log(emailCheck('  adominguez15722@gmail.com'));
+// console.log(emailCheck('  adominguez15722@gmail.com'));
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
@@ -398,6 +398,16 @@ console.log(emailCheck('  adominguez15722@gmail.com'));
 
 //CODE HERE
 
+function goldmember(amount){
+  let chocFrog = 3;
+  let frogCount = (amount / chocFrog);
+
+  return frogCount;
+}
+
+let totalFrogs = goldmember(3648);
+
+console.log(totalFrogs);
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
