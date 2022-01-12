@@ -398,16 +398,16 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-function goldmember(amount){
-  let chocFrog = 3;
-  let frogCount = (amount / chocFrog);
+// function goldmember(amount){
+//   let chocFrog = 3;
+//   let frogCount = (amount / chocFrog);
 
-  return frogCount;
-}
+//   return frogCount;
+// }
 
-let totalFrogs = goldmember(3648);
+// let totalFrogs = goldmember(19);
 
-console.log(totalFrogs);
+// console.log(totalFrogs);
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -415,6 +415,19 @@ console.log(totalFrogs);
 */
 
 //CODE HERE
+
+function goldmember2(amount){
+    let chocFrog = 3;
+    let frogCount = Math.floor(amount / chocFrog);
+  
+    return frogCount;
+  }
+  
+  let totalFrogs2 = goldmember2(4);
+  
+  console.log(totalFrogs2);
+  
+
 
 
 ////////////////// PROBLEM 21 ////////////////////
